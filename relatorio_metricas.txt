@@ -1,0 +1,18 @@
+RELATÓRIO DE AVALIAÇÃO DO PROTÓTIPO DE IA
+==================================================
+
+Algoritmo: MLPClassifier (Rede Neural)
+Dataset: data.csv (Wisconsin Breast Cancer)
+Operação: Classificação Binária (Maligno vs. Benigno)
+
+ACURÁCIA GLOBAL: 98.25%
+
+--- MÉTRICAS DE CLASSIFICAÇÃO ---
+              precision    recall  f1-score   support
+
+     Benigno       0.97      1.00      0.99        72
+     Maligno       1.00      0.95      0.98        42
+
+    accuracy                           0.98       114
+   macro avg       0.99      0.98      0.98       114
+weighted avg       0.98      0.98      0.98       114
