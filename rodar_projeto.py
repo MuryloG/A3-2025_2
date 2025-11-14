@@ -10,7 +10,7 @@ import warnings
 
 warnings.filterwarnings('ignore', category=UserWarning)
 
-NOME_DATASET = 'data.csv' 
+NOME_DATASET = 'data/data.csv' 
 ARQUIVO_RELATORIO_FINAL = 'relatorio_metricas.txt'
 
 def main():
@@ -99,11 +99,11 @@ def main():
         
     
     print("\n[ETAPA 6] Salvando modelo e scaler para produção...")
-    with open('modelo_cancer.pkl', 'wb') as f:
+    with open('model/modelo_cancer.pkl', 'wb') as f:
         pickle.dump(model, f)
-    with open('scaler_cancer.pkl', 'wb') as f:
+    with open('model/scaler_cancer.pkl', 'wb') as f:
         pickle.dump(scaler, f)
-    print("Modelo 'modelo_cancer.pkl' e 'scaler_cancer.pkl' salvos.")
+    print("Modelo 'model/modelo_cancer.pkl' e 'model/scaler_cancer.pkl' salvos.")
 
     print("\n--- SCRIPT CONCLUÍDO ---")
 

@@ -2,7 +2,7 @@ RELATÓRIO DE AVALIAÇÃO DO PROTÓTIPO DE IA
 ==================================================
 
 Algoritmo: MLPClassifier (Rede Neural)
-Dataset: data.csv (Wisconsin Breast Cancer)
+Dataset: data/data.csv (Wisconsin Breast Cancer)
 Operação: Classificação Binária (Maligno vs. Benigno)
 
 ACURÁCIA GLOBAL: 98.25%

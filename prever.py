@@ -2,9 +2,9 @@ import pickle
 import numpy as np
 
 try:
-    with open('modelo_cancer.pkl', 'rb') as f:
+    with open('model/modelo_cancer.pkl', 'rb') as f:
         model = pickle.load(f)
-    with open('scaler_cancer.pkl', 'rb') as f:
+    with open('model/scaler_cancer.pkl', 'rb') as f:
         scaler = pickle.load(f)
 except FileNotFoundError:
     print("ERRO: Arquivos 'modelo_cancer.pkl' ou 'scaler_cancer.pkl' não encontrados.")
